@@ -1,0 +1,4150 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(253, 231, 255);
+}
+/* External style */
+.External-style {
+    color: green;
+
+}
+
+/* ident fir */
+#_test {
+    color: aqua;
+}
+
+#-test {
+    color: rgb(21, 255, 0);
+}
+
+
+
+
+
+
+ /*                                  Background                                             */
+.Background-Color-Name {
+    background-color: red; /* Color Name */
+}
+
+.Background-Red-Green-Blue-min-Number { /* Red Green Blue min */
+    background-color: rgb(00, 00, 00);
+    color: aliceblue;
+}
+
+.Background-Red-Green-Blue-Alpha-Channel { /* Red Green Blue Alpha Channel */
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.Background-Red-Green-Blue-max-Number { /* Red Green Blue max */
+    background-color: rgb(255, 255, 255);
+}
+
+.Background-Hex-Cod { /* Color Hex Cod */
+    background-color: #FF0000;
+}
+
+.Background-Img { /* Background Img */
+    background-image: url("img/backgroun\ body.jpg");
+}
+
+.Background-Img-Repeat { /* Background Repeat */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: repeat;
+}
+
+.Background_Img_No-Repeat { /* Background No-Repeat */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat;
+}
+
+.Background_Img_Repeat-x { /* Background Repeat-x */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: repeat-x;
+}
+
+.Background_Img_Repeat-y { /* Background Repeat-y */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: repeat-y;
+}
+
+.Background-Img-Attachment-Scroll { /* Background Attachment Scroll */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.Background-Img-Attachment-Fixed { /* Background Attachment Fixed */
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Background-Img-Position-Write { 
+/*  Background Position (left-top),(left-center),(left-bottom)
+    Background Position (center-top),(center-center),(center-bottom)
+    Background Position (right-top),(right-center),(right-bottom)
+*/
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat; 
+    background-position: right center;
+}
+/* 616.6666666666666 */
+.Background-Img-Position-Px { 
+/*  Background Position (0px-0px),(0px-169px),(0px-338px)
+    Background Position (308.3333333333333px-0px),(308.3333333333333px-169px),(308.3333333333333px-338px)
+    Background Position (616.6666666666666px-0px),(616.6666666666666px-169px),(616.6666666666666px-330px)
+*/
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat; 
+    background-position: 308.3333333333333px 169px;
+}
+
+.Background-Img-Position-percentage { 
+/*  Background Position (0%-0%),(0%-33.333333333333336%),(0%-766.6666666666667%)
+    Background Position (33.333333333333336%-0px,(33.333333333333336%-766.6666666666667%),(33.333333333333336%-766.6666666666667%)
+    Background Position (766.6666666666667%-0px),(766.6666666666667%-33.333333333333336%),(766.6666666666667%-766.6666666666667%)
+*/
+    background-image: url("img/backgroun\ body.jpg");
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+}
+
+.Background-Img-Size-Auto { /* Background Img Size Auto You Can Here (px-px)And(%-%)*/
+    background-image: url("img/أفضل\ لغات\ برمجة\ مطلوبة\ في\ سوق\ العمل\ لعام\ 2020.jpg");
+    background-repeat: no-repeat; 
+    background-size: auto;
+}
+
+.Background-Img-Size-Cover { /* Background Img Size Cover */
+    background-image: url("img/أفضل\ لغات\ برمجة\ مطلوبة\ في\ سوق\ العمل\ لعام\ 2020.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.Background-Img-Size-Contain { /* Background Img Size Contain */
+    background-image: url("img/أفضل\ لغات\ برمجة\ مطلوبة\ في\ سوق\ العمل\ لعام\ 2020.jpg");
+    background-repeat: no-repeat; 
+    background-size: contain;
+}
+
+ /*                                  Padding                                             */
+/* Percentage(%)And(px) */
+.Padding-clock {
+    background-color: rgb(105, 124, 107);
+    padding: 10px 20px 10px 20px;
+}
+
+.Padding-Take-Face {
+    background-color: rgb(105, 124, 107);
+    padding: 10px 20px ;
+}
+
+.Padding-Select-Direction {
+    background-color: rgb(105, 124, 107);
+    padding-left: 500px;
+}
+
+
+ /*                                  Margin                                             */
+/* Percentage(%)And(px) */
+.Margin-clock {
+    background-color: rgb(105, 124, 107);
+    margin: 10px 20px 10px 20px;
+}
+
+.Margin-Take-Face {
+    background-color: rgb(105, 124, 107);
+    margin: 10px 20px ;
+}
+
+.Margin-Select-Direction {
+    background-color: rgb(105, 124, 107);
+    margin-left: 500px;
+}
+
+.Margin-Minus {
+    background-color: rgb(105, 124, 107);
+    margin: -30px;
+    margin-bottom: 30px;
+}
+
+.Margin-Nespa-Mewia {
+    background-color: rgb(105, 124, 107);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+/*                             Border                                    */
+
+.Border {
+    background-color: aquamarine;
+    border-width: 10px;
+    border-color: red;
+    border-style: dashed;
+    border-right: 10px dotted red;
+    border-top: 10px dashed red;
+    border-left: 10px solid red;
+    border-bottom: 10px double red;
+}
+
+ /*           Display=Block And Inline And Inline Block          */
+
+/* 
+Block
+
+- Take Full Width If No Width
+- Add Line Break
+- Respect Padding , Margin , width ,height
+
+Inline
+
+- Do Not Respect width ,height ,
+- Respect Padding And Margin [Just left+ Right]
+- Do Not Add Line Break
+-Allow Elements Before And After It
+
+Inline-Block
+
+-Allow Elements Before And After It
+- Respect Padding , Margin , width ,height
+-
+
+*/
+
+
+.Div-Test { 
+    background-color: #DDD;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+
+
+
+.Span-Test {  
+    background-color: #EEE;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+.Span-Test-Tow {
+    background-color: #EEE;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+.Display-none div{
+    background-color: red;
+    margin: 10px 0;
+}
+
+.Display-none .first-One {
+    display: none;
+}
+
+
+/*                                 visibility                         */
+
+.Visibility-Default div{
+    background-color: red;
+    margin: 10px 0;
+    visibility: visible;
+}
+
+.Visibility-Hidden div{
+    background-color: red;
+    margin: 10px 0;
+}
+
+.Visibility-Hidden .first-Tow {
+    visibility: hidden;
+}
+
+/*                                 Grouping                         */
+
+.One,
+.Tow,
+.Three,
+.Four {
+    background-color: #EDEDED;
+    margin: 12px 0;
+    padding: 15px;
+}
+
+.One {
+    color: red;
+    border-bottom: 10px solid red;
+}
+
+.Tow {
+    color: blue;
+    border-bottom: 10px solid blue;
+}
+
+.Three {
+    color: green;
+    border-bottom: 10px solid green;
+}
+
+.Four {
+    color: black;
+    border-bottom: 10px solid black;
+}
+
+/*                               Nesting                                */
+
+div div .p {
+    color: red;
+}
+
+/*                            width And Height                         */
+
+/* Width Normal */
+.Width-Normal {
+    background-color: red;
+    width: 600px;
+}
+
+/* Width Normal */
+.Width-Fit-Content {
+    background-color: red;
+    width: fit-content;
+}
+
+/* Width Min Max */
+.Width-Min-Max {
+    background-color: red;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+/* Height Min Max */
+.Height-Min-Max {
+    background-color: red;
+    width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-bottom: 200px;
+}
+
+
+/*                               OverFlow                                */
+
+.OverFlow-Visible {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border-radius: 6px;
+    overflow: visible;
+}
+
+.OverFlow-Hidden {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.OverFlow-Scroll {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: scroll;
+}
+
+.OverFlow-Scroll-X {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow-x: hidden;
+}
+
+.OverFlow-Scroll-Y {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow-y: hidden;
+}
+
+.OverFlow-Auto {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow-y: auto;
+}
+
+
+/*                                      Text                               */
+
+/* Text Shadow */
+.Text-Shadow { /* v-Shadow H-Shadow Blur color *(+-)*/
+    background-color: #DDD;
+    color: black;
+    text-shadow: 1px 1px 1px red;
+}
+
+/*               Alignment        */
+.Text-Alignment { /* Text-Align (left,center,right) */
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/*               direction        */
+
+.Text-Direction { /* Text-Align (ltr,rtl) */
+    background-color: #f9f9f9;
+    text-align: center;
+    direction: rtl;
+}
+
+/*               Vertical-Align        */
+
+.Text-Vertical-Align {
+    text-align: center;
+    direction: ltr;
+}
+
+.Text-Vertical-Align .Img-Vertical-Align{ /* Text-Align (top,bottom,middle) */
+    vertical-align: top;
+}
+/*             Decoration             */
+.Text-Derection-Line-Through {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.Text-Derection-Underline {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Text-Derection-Overline {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.Text-Derection-None a{
+    background-color: #f9f9f9;
+    color: red;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+/*             Transform            */
+.Text-Transform-Capitalize {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Text-Transform-Uppercase {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Text-Transform-Lowercase {
+    background-color: #f9f9f9;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+
+/*             Spacing            */
+.Spacing {  /* (-+) */
+    background-color: #f9f9f9;
+    letter-spacing: 5px;
+}
+
+/*             Indent            */
+.Indent {   /* (-+) */
+    background-color: #f9f9f9;
+    text-indent: 100px;
+}
+
+/*             Line-Hight            */
+.Line-Height {
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/*             Word Spacing            */
+.Word-Spacing {     /* (-+) */
+    background-color: #f9f9f9;
+    word-spacing: 20px;
+}
+
+/*             White Space            */
+.White-Space-Nowrap {
+    background-color: #f9f9f9;
+    width: 400px;
+    white-space: nowrap;
+}
+
+/*             Word Break            */
+.Word-Break-Break-Word {
+    background-color: #f9f9f9;
+    width: 100px;
+    word-break: break-word;
+}
+
+/* Text Overflow */
+.Text-OverFlow {
+    background-color: red;
+    width: 250px;
+    padding: 5px;
+    overflow: hidden;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 6px;
+}
+
+/* text Inherit */
+.Text-Inherit {
+    border: 2px solid red;
+    margin: 20px;
+}
+
+.Text-Inherit p {   /* الوراثة */
+    border: inherit;
+    margin: inherit;
+}
+
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap');
+
+.Font-Family {
+    background-color: #DDD;
+    font-size: 100px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Font Size Px */
+.Font-Size-Em , .Font-Size-Px , .Font-Size-Rem {
+    background-color: #DDD;
+    font-size: 20px;
+}
+
+.Font-Size-Px span{
+    font-size: 20px;
+}
+
+/* Font Size Em */
+.Font-Size-Em span{
+    font-size: 2em;
+}
+
+/* Font Size Rem */
+.Font-Size-Rem span{
+    font-size: 1rem;
+}
+
+/* Font Style */
+.Font-Style {
+    background-color: #DDD;
+    font-style: oblique;
+    font-style: italic;
+}
+
+/* Font Variant */
+.Font-Variant {
+    background-color: #DDD;
+}
+
+.Font-Variant div {
+    font-variant: small-caps;
+}
+
+/* Font Weight */
+.Font-Weight {
+    background-color: #DDD;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Font Weight Normal */
+.Font-Weight-Normal {
+    background-color: #DDD;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-weight: normal;
+}
+
+/*                        cursor                   */
+
+.Cursor button{
+    background: none;
+    color: red;
+    border: none;
+    font-weight: bold;
+    cursor: wait;
+}
+
+/*                        Float And Clear                   */
+
+.Parent {
+    background-color: red;
+    padding: 10px;
+}
+
+.Parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #DDD;
+    width: 25%;
+    float: left;
+}
+
+.Clear {
+    clear: both;
+}
+
+/*                        Calculation                   */
+
+.Calculation {
+    background-color: red;
+    padding: 10px;
+}
+
+.Calculation div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #DDD;
+    float: left;
+    width: calc((100% - 50px) / 5);
+    margin-left: 10px;
+}
+
+.Clear {
+    clear: both;
+}
+/* 
+    (%)
+    Content Width Is: 100%
+    5 Spaces 1% * 5 => 5% From Content Width
+    95% Available Space
+    5 Elements The Width Is: 95% / 5
+*/
+
+/* 
+    (Px)
+    Content Width Is: 100%
+    5 Spaces 10px * 5 => 50px From Content Width
+    100% - 50px Available Space
+    5 Elements The Width Is: (100% - 50px) / 5
+*/
+
+/*                        Opacity                   */
+.Opacity-one {
+    background-color: rgba(255, 0, 0, 0.274);
+}
+
+.Opacity-tow {
+    background-color: red;
+    opacity: 0.5;
+}
+
+/*                        Position                   */
+/* Position Static */
+.Position-Static div {
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+.Position-Static .div-One {
+    background-color: red;
+    position: static;
+    top: 23px;
+}
+
+.Position-Static .div-Tow {
+    background-color: green;
+}
+
+/* Position Relative */
+.Position-Relative div {
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+.Position-Relative .div-One {
+    background-color: red;
+    position: relative;
+    top: 30px;
+}
+
+.Position-Relative .div-Tow {
+    background-color: green;
+}
+
+/* Position Absolute */
+.Position-Absolute div {
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+.Position-Absolute .div-One {
+    background-color: red;
+    position: absolute;
+    bottom: -26810px;
+}
+
+.Position-Absolute .div-Tow {
+    background-color: green;
+}
+
+.Position-Absolute {
+    margin-bottom: 500px;
+}
+
+@media (max-width: 1182) {
+    .Position-Absolute .div-One {
+        bottom: -26939px;
+    }
+}
+
+/* Position Absolute Relative */
+.Position-Absolute-Relative .container {
+    background-color: blue;
+    width: 700px;
+    height: 300px;
+    position: relative;
+}
+
+.Position-Absolute-Relative div div {
+    color: white;
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+}
+
+
+.Position-Absolute-Relative .div-One {
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+/* Position Fixed */
+.Position-Fixed .div-One{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Position Sticky */
+.Position-Sticky div {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0px -2px;
+}
+
+/*                        Z-Index                   */
+.Z-Index {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.Z-Index div {
+    position: absolute;
+}
+
+.Z-Index .one {
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+.Z-Index .two {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+}
+
+.Z-Index .three {
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    z-index: 1;
+}
+
+/* Z-Index Draw */
+.Z-Index-Draw {
+    position: relative;
+    margin-bottom: 200px;
+}
+    
+.Z-Index-Draw div {
+    position: absolute;
+}
+    
+.Z-Index-Draw .one {
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+    
+.Z-Index-Draw .two {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+}
+    
+.Z-Index-Draw .three {
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    z-index: 3;
+}
+
+/*                        Lists Styling                   */
+/* List Style Type */
+.List-Style-Type ul {
+    list-style-type: none;
+}
+
+/* List Style Position */
+.List-Style-Position li {
+    background-color: #eee;
+    list-style-position: inside;
+}
+
+/* List Style Image */
+.List-Style-Image ul {
+    list-style-image: url("http://cdn.shopify.com/s/files/1/0289/6635/5028/files/icon-mw-black_7d9627d0-a6be-4384-9424-be59dff26987_1200x1200.png?v=1594956089");
+    list-style-position: inside;
+}
+
+
+/*                        Lists Styling                   */
+.Table-Styling table {
+    width: 500px;
+    border: 2px solid rgb(133 130 130 / 64%);
+    border-spacing: 3px;
+}
+
+.Table-Styling table td {
+    border: 2px solid #DDD;
+    background-color: #EEE;
+}
+
+.Table-Styling table thead td {
+    font-weight: bold;
+    background-color: aqua;
+    text-align: center;
+}
+
+/*                        Pseudo Classes                   */
+/* Pseudo Hover */
+
+.Pseudo-Hover a {
+    text-decoration: none;
+    color: green;
+}
+
+.Pseudo-Hover a:hover {
+    color: red;
+}
+
+/* Pseudo Checked */
+.Pseudo-Checked .checkbox:checked + label {
+    color: red;
+}
+
+.Pseudo-Checked .checkbox-two:checked {
+    display: none;
+}
+
+/* Pseudo Visited */
+.Pseudo-Visited a {
+    text-decoration: none;
+    color: green;
+}
+
+.Pseudo-Visited a:visited {
+    color: rgb(235 42 193 / 72%);
+}
+
+/* Pseudo Empty */
+.Pseudo-Empty {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+.Pseudo-Empty:empty {
+    border: 5px solid red;
+}
+
+/* Pseudo Focus */
+.Pseudo-Focus input:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+/*                        Pseudo Elements                   */
+/* Pseudo First Letter */
+.Pseudo-First-Letter::first-letter{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}      
+
+/* Pseudo First Line */
+.Pseudo-First-Line::first-line {
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
+/* Pseudo First Selection */
+.Pseudo-Selection::selection {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+/* Pseudo First After */
+.Pseudo-After-And-Before {
+    position: relative;
+}
+
+.Pseudo-After-And-Before span {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.Pseudo-After-And-Before div {
+    margin-bottom: 32px;
+}
+
+.Pseudo-After-And-Before div .two {
+    margin-left: 10px;
+}
+
+.Pseudo-After-And-Before .div-one::before {
+    content: "";
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 4.3%;
+    bottom: 58%;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent cyan transparent transparent;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+.Pseudo-After-And-Before .div-two::before {
+    content: "";
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 57px;
+    bottom: 4px;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent cyan transparent transparent;
+}
+
+.Pseudo-After-And-Before .div-one::after {
+    content: "";
+    background-color: aqua;
+    width: 4px;
+    height: 38px;
+    position: absolute;
+    left: 570px;
+    bottom: 70px;
+}
+
+.Pseudo-After-And-Before .div-two::after {
+    content: "";
+    background-color: aqua;
+    width: 4px;
+    height: 38px;
+    position: absolute;
+    left: 570px;
+    bottom: 0px;
+}
+
+/* Counter increment */
+.Pseudo-Counter-increment {
+    position: relative;
+}
+
+.Pseudo-Counter-increment .div {
+    margin-bottom: 10px;
+    background: none;
+    counter-increment: Ahmed;
+}
+
+.Pseudo-Counter-increment .user {
+    background-color: rgb(175, 150, 150);
+    width: 70px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    height: 63px;
+    font-size: 25px;
+    line-height: 2;
+    padding-left: 10px;
+}
+
+.Pseudo-Counter-increment #user-two {
+    position: absolute;
+    top: 100px;
+}
+
+.Pseudo-Counter-increment .one {
+    background-color: rgb(175, 150, 150);
+    width: 600px;
+    padding: 20px;
+    word-break: break-all;
+    position: absolute;
+    left: 130px;
+}
+
+.Pseudo-Counter-increment #one-two  {
+    top: 100px;
+}
+
+.Pseudo-Counter-increment .one::after {
+    content: counter(Ahmed);
+    color: white;
+    background-color: green;
+    padding: 5px;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+/* Pseudo Content Attr */
+#main-h1-article {
+    margin-top: 250px;
+}
+
+.Pseudo-Content-Attr div {
+    background-color: rgb(175, 150, 150);
+    width: 600px;
+    word-break: break-all;
+    padding: 10px; 
+    position: relative;
+}
+
+.Pseudo-Content-Attr div:hover {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.Pseudo-Content-Attr div::before {
+    content: attr(data-text);
+    background-color: green;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+
+}
+
+.Pseudo-Content-Attr div:hover::before {
+    display: inline-block;
+}
+
+/*                        Border Radius                   */
+.Border-Radius {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Border Radius Two Value  */
+.Border-Radius-Two-Value {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 196px 180px;
+}
+
+/*                        Box Shadow                   */
+.Box-Shadow {
+    background-color: #ddd;
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 4;
+    font-size: 50px ;
+    box-shadow: 
+    0px 16px 13px -9px #00000094,
+    1px -9px 10px -7px #0000ff7d,
+    1px 1px 20px 5px #00800066 inset;
+}
+
+/*                         Box Sizing                    */
+.Box-Sizing {
+    background-color: red;
+    padding: 10px;
+}
+
+.Box-Sizing .one {
+    background-color: #ddd;
+    float: left;
+    width: calc(98% / 2);
+    text-align: center;
+    margin-right: 1%;
+    border: 3px solid blue;
+    box-sizing: border-box;
+}
+
+.Clear {
+    clear: both;
+}
+
+/*                      Transition                             */
+/* Transition Duration */
+.Transition-Duration {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.7s;
+}
+
+.Transition-Duration:hover {
+    background-color: blue;
+    padding: 20px;
+}
+
+/* Transition Delay */
+.Transition-Delay {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.7s;
+    transition-delay: 1s;
+}
+
+.Transition-Delay:hover {
+    background-color: blue;
+    padding: 20px;
+}
+
+/* Transition Property */
+.Transition-Property {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.7s;
+    transition-property: width;
+}
+
+.Transition-Property:hover {
+    background-color: blue;
+    width: 150px;
+    height: 60px;
+}
+
+/* Transition Timing Function */
+.Transition-Timing-Function {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+}
+
+.Transition-Timing-Function:hover {
+    background-color: blue;
+    padding-right: 50px;
+}
+
+/*                           Important                          */
+.Important {
+    background-color: green !important;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/*                          Margin Collapse                          */
+.Margin-Collapse {
+    background-color: #DDD;
+    width: 95%;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.Margin-Collapse .container-first {
+    display: inline-block;
+    background-color: #eee;
+    width: 50%;
+    height: 100%;
+
+}
+
+.Margin-Collapse .container {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.container div {
+    width: 100%;
+    height: 195px;
+}
+
+.Margin-Collapse .container .up {
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.Margin-Collapse .container .down {
+    background-color: green;
+    margin-top: 10px;
+}
+
+/*                         Variable                             */
+/* Variable Global */
+:root {
+    --mainColor: blue;
+}
+
+.Variable-Global h1 {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 20px;
+}
+
+.Variable-Global h2 {
+    background-color: #ddd;
+    color: var(--mainColor);
+    padding: 20px;
+}
+
+.Variable-Global h3 {
+    background-color: #ddd;
+    color: var(--mainColor);
+    padding: 20px;
+    border: 3px solid var(--mainColor);
+}
+
+.Variable-Global a {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.Variable-Global a:hover {
+    color: var(--mainColor);
+}
+
+/* Variable Local */
+.Variable-Local h1 {
+    --colorLocal: rgb(217, 255, 0);
+    color: var(--colorLocal);
+}
+
+.Variable-Local h2 {
+    color: var(--colorLocal);
+}
+
+/*                                            Break                                   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                               End Break                                              */
+
+/*                               Flex Box Lesson(one)                                              */
+/* Variable Background div */
+:root {
+    --BackgroundColorFlexBox: black;
+    --ColorDiv: yellow;
+    --ColorText: black;
+}
+
+/* Direction Row */
+.Dir {
+    direction: rtl;
+}
+.Flex-Box-Direction-Row {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Flex-Box-Direction-Row div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Direction Row Reverse */
+.Flex-Box-Direction-Row-Reverse {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Flex-Box-Direction-Row-Reverse div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Direction Column */
+.Flex-Box-Direction-Column {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Flex-Box-Direction-Column div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Direction Column Reverse */
+.Flex-Box-Direction-Column-Reverse {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: Column-reverse;
+}
+
+.Flex-Box-Direction-Column-Reverse div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Wrap Wrap */
+.Flex-Box-Wrap-Wrap {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Flex-Box-Wrap-Wrap div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Wrap noWrap */
+.Flex-Box-Wrap-Nowrap {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.Flex-Box-Wrap-Nowrap div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Wrap Wrap Reverse */
+.Flex-Box-Wrap-Wrap-Reverse {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.Flex-Box-Wrap-Wrap-Reverse div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Flow (Short Hand) */
+.Flex-Box-Flow {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Flex-Box-Flow div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+    text-align: center; 
+}
+
+/*                               Flex Box Lesson(Two)                                              */
+/* Justify Content Flex Start */
+.Justify-Content-Flex-Start {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.Justify-Content-Flex-Start div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(100% / 3);
+    padding: 10px 0px;
+}
+
+/* Justify Content Flex End */
+.Justify-Content-Flex-End {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.Justify-Content-Flex-End div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(100% / 3);
+    padding: 10px 0px;
+}
+
+/* Justify Content Center */
+.Justify-Content-Center {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Justify-Content-Center div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(100% / 3);
+    padding: 10px 0px;
+}
+
+/* Justify Content Space-Between */
+.Justify-Content-Space-Between {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.Justify-Content-Space-Between div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(96% / 4);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Justify Content Space-Around */
+.Justify-Content-Space-Around {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.Justify-Content-Space-Around div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(92% / 4);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Justify Content Space- */
+.Justify-Content-Space-Evenly {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.Justify-Content-Space-Evenly div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: calc(83% / 4);
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*                                Flex Box Lesson (Three)                  */
+/* Flex Box Align Items Stretch */
+.Flex-Box-Align-Items-Stretch {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 207px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.Flex-Box-Align-Items-Stretch div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 26%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Flex Box Align Items Flex Start */
+.Flex-Box-Align-Items-Flex-Start {
+    background-color: blue;
+    width: 544px;
+    height: 229px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Flex Box Align Items Flex End */
+.Flex-Box-Align-Items-Flex-End {
+    background-color: blue;
+    width: 544px;
+    height: 229px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Flex Box Align Items Flex Center */
+.Flex-Box-Align-Items-Flex-Center {
+    background-color: blue;
+    width: 544px;
+    height: 229px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*                       Flex Box Lesson (Four)                            */
+/* Flex Box (Align-Content-Stretch) */
+.Flex-Box-Align-Content-Stretch {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+
+}
+
+.Flex-Box-Align-Content-Stretch div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Flex-Start) */
+.Flex-Box-Align-Content-Flex-Start {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.Flex-Box-Align-Content-Flex-Start div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Flex-End) */
+.Flex-Box-Align-Content-Flex-End {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-End;
+}
+
+.Flex-Box-Align-Content-Flex-End div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Center) */
+.Flex-Box-Align-Content-Center {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.Flex-Box-Align-Content-Center div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Space-Between) */
+.Flex-Box-Align-Content-Space-Between {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.Flex-Box-Align-Content-Space-Between div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Space-Around) */
+.Flex-Box-Align-Content-Space-Around {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.Flex-Box-Align-Content-Space-Around div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Flex Box (Align-Content-Space-Evenly) */
+.Flex-Box-Align-Content-Space-Evenly {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+}
+
+.Flex-Box-Align-Content-Space-Evenly div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* comparison (Align Items) vs (Align Content) */
+/* First(Align-Items) */
+.comparison-First-Align-Items {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-End;
+}
+
+.comparison-First-Align-Items div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+
+/* Second(Align-Content) */
+.comparison-First-Align-Content {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-Content: flex-End;
+}
+
+.comparison-First-Align-Content div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    width: 25%;
+    padding: 10px;
+}
+/*                       Flex Box Lesson (Five)                            */
+/* Flex Box Child Grow */
+.Flex-Box-Child-Grow {
+    background-color: var(--BackgroundColorFlexBox);
+    width: 657px;
+    padding: 10px;
+    display: flex;
+}
+
+.Flex-Box-Child-Grow div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.Flex-Box-Child-Grow .Threee {
+    flex-grow: 3;
+}
+
+/* Flex Box Child Shrink */
+.Flex-Box-Child-Shrink {
+    background-color: var(--BackgroundColorFlexBox);
+    width: 657px;
+    padding: 10px;
+    display: flex;
+}
+
+.Flex-Box-Child-Shrink div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.Flex-Box-Child-Shrink .Twoo {
+    width: 500px;
+    flex-shrink: 6;
+}
+
+/* Flex Box Child Order */
+.Flex-Box-Child-Order {
+    background-color: var(--BackgroundColorFlexBox);
+    width: 657px;
+    padding: 10px;
+    display: flex;
+}
+
+.Flex-Box-Child-Order div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.Flex-Box-Child-Order .One-Order {
+    order: 6;
+}
+
+.Flex-Box-Child-Order .Two-Order {
+    order: 5;
+}
+
+.Flex-Box-Child-Order .Three-Order {
+    order: 4;
+}
+
+.Flex-Box-Child-Order .Four-Order {
+    order: 3;
+}
+
+.Flex-Box-Child-Order .Five-Order {
+    order: 2;
+}
+
+.Flex-Box-Child-Order .Six-Order {
+    order: 1;
+}
+
+/*                         Flex Box Lesson (Six)                */
+/* Flex Box Flex Basis One */
+.Flex-Box-Flex-Basis-One {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+}
+
+.Flex-Box-Flex-Basis-One div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+.Flex-Box-Flex-Basis-One .Fourr {
+    flex-basis: 400px;
+}
+
+/* Flex Box Flex Basis Two */
+.Flex-Box-Flex-Basis-Two {
+    background-color: var(--BackgroundColorFlexBox);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Flex-Box-Flex-Basis-Two div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+.Flex-Box-Flex-Basis-Two .Fourr {
+    flex-basis: 200px;
+}
+/*                         Flex Box Lesson (Seven)                */
+/* Flex Box Align Self */
+.Flex-Box-Align-Self {
+    background-color: var(--BackgroundColorFlexBox);
+    height: 204px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Flex-Box-Align-Self div {
+    background-color: var(--ColorDiv);
+    color: var(--ColorText);
+    padding: 10px;
+    margin-right: 5px;
+    width: 100px;
+    flex-grow: 1;
+}
+
+.Flex-Box-Align-Self .Fourr {
+    align-self: flex-end;
+}
+
+/*                                            Filter                                 */
+.Filter div {
+    display: inline-block;
+}
+
+img {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+/* Filter One */
+
+.Filter .one img {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.Filter .one img:hover {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+/* Filter Two */
+.Filter .two img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.Filter .two img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/* Filter Three */
+.Filter .three img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.Filter .three img:hover {
+    filter: invert(0);
+    -webkit-filter: invert(0);
+}
+
+/* Filter Four */
+.Filter .four img {
+    filter: contrast(0);
+    -webkit-filter: contrast(0);
+}
+
+.Filter .four img:hover {
+    filter: contrast(100%);
+    -webkit-filter: contrast(100%);
+}
+
+
+/* Filter Five */
+.Filter .five img {
+    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg);
+}
+
+.Filter .five img:hover {
+    filter: hue-rotate(0);
+    -webkit-filter: hue-rotate(0);
+}
+
+/* Filter Six */
+.Filter .six img {
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+    -webkit-filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+
+.Filter .six img:hover {
+    filter: drop-shadow(0px 0px 0px red) invert(0%);
+    -webkit-filter: drop-shadow(0px 0px 0px red) invert(0%);
+}
+
+/* Filter Seven */
+.Filter .seven img {
+    filter: brightness(4%);
+    -webkit-filter: brightness(4%);
+}
+
+.Filter .seven img:hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+
+/* Filter Eight */
+.Filter .eight img {
+    filter:opacity(10%);
+    -webkit-filter:opacity(10%);
+}
+
+.Filter .eight img:hover {
+    filter:opacity(100%);
+    -webkit-filter:opacity(100%);
+}
+
+/*                                    Linear Gradient                                      */
+.Linear-Gradient {
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.Linear-Gradient::before {
+        content: "";
+        width: 400px;
+        height: 10px;
+        position: absolute;
+        top: 0px;
+        background-image:
+        linear-gradient(
+            to right ,
+            blue 20%,
+            red 20%,
+            red 40% ,
+            rgb(94, 94, 255) 40%,
+            rgb(94, 94, 255)60%,
+            green 60%,
+            green 80%,
+            yellow 80%);
+}
+
+.Linear-Gradient::after {
+    content: "";
+    width: 400px;
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    background-image:
+    linear-gradient(
+        to right , blue, red , rgb(94,94,255), green, yellow);
+}
+
+/*                                          Radial Gradient                                */
+.Radial-Gradient {
+    background-color: #ddd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    margin: 20px auto;
+    position: relative;
+    transition-duration: 1s;
+    background-image: radial-gradient(blue, aqua);
+}
+
+.Radial-Gradient:hover {
+    padding: 50px;
+}
+
+/*                            Caret Color And Pointer Events                                */
+/* Caret Color */
+.Caret-Color-And-Pointer-Events input , .Caret-Color-And-Pointer-Events p {
+    caret-color: orange;
+    outline: none;
+}
+
+/* Pointer Events */
+.Caret-Color-And-Pointer-Events a {
+    pointer-events: none;
+}
+
+
+/*                                       Grid                                   */
+/* auto mix repeat */
+/*                      Grid Lesson One                */
+/* Grid Grid Template (Columns And Rows) */
+
+.Grid-Grid-Template-Columns-And-Rows {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.Grid-Grid-Template-Columns-And-Rows div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Grid Template (Columns And Rows (Px)) */
+
+.Grid-Grid-Template-Columns-And-Rows-Px {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.Grid-Grid-Template-Columns-And-Rows-Px div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Grid Template (Columns And Rows (%)) */
+
+.Grid-Grid-Template-Columns-And-Rows-Fi-Elmia {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%;
+}
+
+.Grid-Grid-Template-Columns-And-Rows-Fi-Elmia div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Grid Template (Columns And Rows (Auto)) */
+
+.Grid-Grid-Template-Columns-And-Rows-Auto {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.Grid-Grid-Template-Columns-And-Rows-Auto div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Grid Template (Columns And Rows (Fr)) */
+
+.Grid-Grid-Template-Columns-And-Rows-Fr {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto 1fr;
+}
+
+.Grid-Grid-Template-Columns-And-Rows-Fr div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Grid Template (Columns And Rows (Repeat)) */
+
+.Grid-Grid-Template-Columns-And-Rows-Repeat {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, calc(800px / 3));
+    grid-template-rows: repeat(3, calc(500px / 3));
+}
+
+.Grid-Grid-Template-Columns-And-Rows-Repeat div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid Row Gap And Column Gap */
+
+.Grid-Row-Gap-And-Column-Gap {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 10px; 
+    column-gap: 10px;
+    gap: 10px 10px;
+}
+
+.Grid-Row-Gap-And-Column-Gap div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid (Justify content) And (Align Content) */
+
+.Grid-Justify-Content-And-Align-Content {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.Grid-Justify-Content-And-Align-Content div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Grid (Grid Template Areas And Grid Area) */
+
+.Grid-Grid-Template-Areas-And-Grid-Area {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 80px 80px 500px 50px;
+    grid-template-areas: 
+    "header header header header header header header header header header"
+    "Nav Nav Nav Nav Nav Nav Nav Nav Nav Nav"
+    "Content Content Content Content Content Content Content . Aside Aside"
+    "Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer";
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    grid-area: header;
+    padding-top: 28px;
+}
+
+nav {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    grid-area: Nav;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    width: 249px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style: none;
+    flex-basis: 100px ;
+}
+section {
+    background-color: blue;
+    color: white;
+    grid-area: Content;
+    text-align: center;
+}
+
+aside {
+    background-color: green;
+    color: white;
+    grid-area: Aside;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    grid-area: Footer;
+    text-align: center;
+}
+
+/* Grid Child (Grid Column And Grid Row) */
+
+.Grid-Child-Grid-Column-And-Grid-Row {
+    background-color: #ddd;
+    width: 800px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, clac(1000px / 6));
+    row-gap: 10px; 
+    column-gap: 10px;
+    gap: 10px 10px;
+}
+
+.Grid-Child-Grid-Column-And-Grid-Row div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.Grid-Child-Grid-Column-And-Grid-Row .One-Grid {
+    grid-column: 1 / span 6;
+}
+
+.Two-Grid {
+    grid-row: span 2;
+}
+
+.Three-Grid {
+    grid-column: span 2;
+}
+
+.Four-Grid {
+    grid-row: span 2;
+}
+
+.Five-Grid {
+    grid-column: span 2;
+}
+
+.Six-Grid {
+    grid-column: span 2;
+}
+
+.Seven-Grid {
+    grid-column: span 2;
+}
+
+.Eight-Grid {
+    grid-column: span 2;
+}
+
+.Nine-Grid {
+    grid-row: span 2;
+}
+
+.Ten-Grid {
+    grid-column: span 3;
+}
+
+.Eleven-Grid {
+    grid-column: span 2;
+}
+
+.Twelve-Grid {
+    grid-column: span 3;
+}
+
+.Thirteen-Grid {
+    grid-column: span 3;
+}
+
+.Fiveteen-Grid {
+    grid-column: span 3;
+}
+
+.Sixteen-Grid {
+    grid-row: span 3;
+}
+
+.Seventeen-Grid {
+    grid-row: span 3;
+}
+
+.Eightteen-Grid {
+    grid-row: span 3;
+}
+
+.Nineteen-Grid {
+    grid-row: span 3;
+}
+
+.Twenty-Grid {
+    grid-row: span 3;
+}
+
+.Twenty-One-Grid {
+    grid-row: span 3;
+}
+
+.Grid-Child-Grid-Row-Start-And-Grid-Colum-Start-And-Grid-Row-End-And-Grid-Column-End {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 10px;
+}
+
+.Grid-Child-Grid-Row-Start-And-Grid-Colum-Start-And-Grid-Row-End-And-Grid-Column-End div {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.Grid-Child-Grid-Row-Start-And-Grid-Colum-Start-And-Grid-Row-End-And-Grid-Column-End .Five-grid {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+/* Grid Child minmax And Auto Fill */
+
+.Grid-Child-minmax-And-Auto-Fill {
+    background-color: #ddd;
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.Grid-Child-minmax-And-Auto-Fill div {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/*                                           Transform 2D                                 */ 
+/*                        Transform 2D Lesson(One)                    */ 
+/* Transform 2D Scale */
+/* Section (One) */
+.Transform-2D-Scale {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Scale div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scale(1.4 , 1.4);
+}
+
+.Transform-2D-Scale div:hover {
+    transform: scaley(1);
+}
+
+/* Section (Two) */
+.Transform-2D-Scale-X {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Scale-X div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scalex(1.4);
+}
+
+.Transform-2D-Scale-X div:hover {
+    transform: scaley(1);
+}
+
+/* Section (Three) */
+.Transform-2D-Scale-Y {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Scale-Y div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scaley(1.4);
+}
+
+.Transform-2D-Scale-Y div:hover {
+    transform: scaley(1);
+}
+
+/* Section (Four) */
+.Transform-2D-Scale-X-Negative {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Scale-X-Negative div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scalex(-1);
+}
+
+.Transform-2D-Scale-X-Negative div:hover {
+    transform: scaley(1);
+}
+
+/* Section (Five) */
+.Transform-2D-Scale-Y-Negative {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Scale-Y-Negative div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scaley(-1);
+}
+
+.Transform-2D-Scale-Y-Negative div:hover {
+    transform: scaley(1);
+}
+
+/*                        Transform 2D Lesson(Two)                    */ 
+/* Transform 2D Rotate */
+/* Section (One) */
+.Transform-2D-Rotate-Deg {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Rotate-Deg div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: rotate(45deg);
+}
+
+.Transform-2D-Rotate-Deg div:hover {
+    transform: rotate(0deg);
+}
+
+/* Section (Two) */
+.Transform-2D-Rotate-Rad {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Rotate-Rad div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: rotate(0.7958rad);
+}
+
+.Transform-2D-Rotate-Rad div:hover {
+    transform: rotate(0rad);
+}
+
+/* Section (Three) */
+.Transform-2D-Rotate-Grad {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Rotate-Grad div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: rotate(50grad);
+}
+
+.Transform-2D-Rotate-Grad div:hover {
+    transform: rotate(0grad);
+}
+
+/* Section (Four) */
+.Transform-2D-Rotate-Turn {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Rotate-Turn div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: rotate(.125turn);
+}
+
+.Transform-2D-Rotate-Turn div:hover {
+    transform: rotate(0turn);
+}
+
+/* Section (Five) */
+.Transform-2D-Rotate-Negative {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Rotate-Negative div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: rotate(-45deg);
+}
+
+.Transform-2D-Rotate-Negative div:hover {
+    transform: rotate(0deg);
+}
+
+/* Section (Six) */
+.Transform-2D-Scale-And-Rotate {
+    width: 1000px;
+    height: 563px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.Transform-2D-Scale-And-Rotate img {
+    transition: all 1s 0s ease;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.Transform-2D-Scale-And-Rotate img:hover {
+    transform: scale(1.5) rotate(10deg);
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+/*                        Transform 2D Lesson(Three)                    */ 
+/* Transform 2D Translate */
+/* Section (One) */
+.Transform-2D-Translate {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
+
+.Transform-2D-Translate div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: translate(50%, 50%);
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+}
+.Transform-2D-Translate div:hover {
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+}
+
+/* Section (Two) */
+.Transform-2D-Translate-X {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
+
+.Transform-2D-Translate-X div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: translatex(50%);
+    -webkit-transform: translatex(50%);
+    -moz-transform: translatex(50%);
+    -ms-transform: translatex(50%);
+    -o-transform: translatex(50%);
+}
+.Transform-2D-Translate-X div:hover {
+    transform: translatex(0%);
+    -webkit-transform: translatex(0%);
+    -moz-transform: translatex(0%);
+    -ms-transform: translatex(0%);
+    -o-transform: translatex(0%);
+}
+
+/* Section (Three) */
+.Transform-2D-Translate-Y {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
+
+.Transform-2D-Translate-Y div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: translatey(50%);
+    -webkit-transform: translatey(50%);
+    -moz-transform: translatey(50%);
+    -ms-transform: translatey(50%);
+    -o-transform: translatey(50%);
+}
+.Transform-2D-Translate-Y div:hover {
+    transform: translatey(0%);
+    -webkit-transform: translatey(0%);
+    -moz-transform: translatey(0%);
+    -ms-transform: translatey(0%);
+    -o-transform: translatey(0%);
+}
+
+/* Section (Four) */
+.Transform-2D-Translate-Center-Items {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.Transform-2D-Translate-Center-Items::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.Transform-2D-Translate-Center-Items::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.Transform-2D-Translate-Center-Items div {
+    background-color: #0000ff57;
+    color: white;
+    width: 180px;
+    height: 180px;
+    margin: 5px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
+
+.Transform-2D-Translate-Center-Items div:hover {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.Transform-2D-Translate-Center-Items div:hover::before {
+    content: "Transform";
+    color: white;
+    font-size: 50px;
+}
+
+.Transform-2D-Translate-Center-Items div:hover + p::before {
+    content: "";
+    background-color: #ddd;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.Transform-2D-Translate-Center-Items div:hover + p::after {
+    content: "";
+    background-color: #ddd;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 5;
+}
+
+/*                        Transform 2D Lesson(Four)                    */ 
+/* Transform 2D Skew */
+/* Section (One) */
+.Transform-2D-Skew{
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Skew div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: skew(30deg, 24deg);
+    -webkit-transform: skew(30deg, 24deg);
+    -moz-transform: skew(30deg, 24deg);
+    -ms-transform: skew(30deg, 24deg);
+    -o-transform: skew(30deg, 24deg);
+}
+
+.Transform-2D-Skew div:hover {
+    transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+}
+
+/* Section (Two) */
+.Transform-2D-Skew-X{
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Skew-X div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: skewx(30deg);
+    -webkit-transform: skewx(30deg);
+    -moz-transform: skewx(30deg);
+    -ms-transform: skewx(30deg);
+    -o-transform: skewx(30deg);
+}
+
+.Transform-2D-Skew-X div:hover {
+    transform: skewx(0deg);
+    -webkit-transform: skewx(0deg);
+    -moz-transform: skewx(0deg);
+    -ms-transform: skewx(0deg);
+    -o-transform: skewx(0deg);
+}
+
+/* Section (Three) */
+.Transform-2D-Skew-Y{
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Skew-Y div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: skewy(24deg);
+    -webkit-transform: skewy(24deg);
+    -moz-transform: skewy(24deg);
+    -ms-transform: skewy(24deg);
+    -o-transform: skewy(24deg);
+}
+
+.Transform-2D-Skew-Y div:hover {
+    transform: skewx(0deg);
+    -webkit-transform: skewy(0deg);
+    -moz-transform: skewx(0deg);
+    -ms-transform: skewx(0deg);
+    -o-transform: skewx(0deg);
+}
+
+/* Section (Four) */
+.Transform-2D-Skew-Negative{
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Skew-Negative div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    transform: skew(-30deg, -24deg);
+    -webkit-transform: skew(-30deg, -24deg);
+    -moz-transform: skew(-30deg, -24deg);
+    -ms-transform: skew(-30deg, -24deg);
+    -o-transform: skew(-30deg, -24deg);
+}
+
+.Transform-2D-Skew-Negative div:hover {
+    transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+}
+
+/* Section (Four) */
+.Transform-2D-Skew-Text-Normal{
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Skew-Text-Normal div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.Transform-2D-Skew-Text-Normal div::before {
+    content: "";
+    background-color: #0000ff57;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    transition: all 1s 0s ease;
+    position: absolute;
+    top: -134px;
+    transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -moz-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    z-index: -1;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+}
+
+.Transform-2D-Skew-Text-Normal div:hover::before {
+    transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -moz-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+}
+
+/*                        Transform 2D Lesson(Five)                    */ 
+/* Transform 2D Matrix */
+/* Section (Two) */
+.Transform-2D-Matrix {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-Matrix div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: matrix(1.2,0,1,1.2,100,20);
+    -webkit-transform: matrix(1.2,0,1,1.2,100,20);
+    -moz-transform: matrix(1.2,0,1,1.2,100,20);
+    -ms-transform: matrix(1.2,0,1,1.2,100,20);
+    -o-transform: matrix(1.2,0,1,1.2,100,20);
+}
+
+.Transform-2D-Matrix div:hover {
+    transform: matrix(1,0,0,1,0,0);
+    -webkit-transform: matrix(1,0,0,1,0,0);
+    -moz-transform: matrix(1,0,0,1,0,0);
+    -ms-transform: matrix(1,0,0,1,0,0);
+    -o-transform: matrix(1,0,0,1,0,0);
+}
+
+/* Section (Two) */
+.Transform-2D-No-Matrix {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-2D-No-Matrix div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: translatex(100px) translatey(20px) skewy(0deg) skewX(40deg) scaleX(1.2) scaleY(1.2);
+    -webkit-transform: translatex(100px) translatey(20px) skewy(0deg) skewX(40deg) scaleX(1.2) scaleY(1.2);
+    -moz-transform: translatex(100px) translatey(20px) skewy(0deg) skewX(40deg) scaleX(1.2) scaleY(1.2);
+    -ms-transform: translatex(100px) translatey(20px) skewy(0deg) skewX(40deg) scaleX(1.2) scaleY(1.2);
+    -o-transform: translatex(100px) translatey(20px) skewy(0deg) skewX(40deg) scaleX(1.2) scaleY(1.2);
+}
+
+.Transform-2D-No-Matrix div:hover {
+    transform: translatex(0px) translatey(0px) skewy(0deg) skewX(0deg) scaleX(1) scaleY(1);
+    -webkit-transform: translatex(0px) translatey(0px) skewy(0deg) skewX(0deg) scaleX(1) scaleY(1);
+    -moz-transform: translatex(0px) translatey(0px) skewy(0deg) skewX(0deg) scaleX(1) scaleY(1);
+    -ms-transform: translatex(0px) translatey(0px) skewy(0deg) skewX(0deg) scaleX(1) scaleY(1);
+    -o-transform: translatex(0px) translatey(0px) skewy(0deg) skewX(0deg) scaleX(1) scaleY(1);
+}
+
+/*                        Transform 2D Lesson(Six)                    */ 
+/* Transform 2D Origin */
+.Origin {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.origin {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.Origin .Transform {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s 0s ease;
+    -webkit-transition: all 2s 0s ease;
+    -moz-transition: all 2s 0s ease;
+    -ms-transition: all 2s 0s ease;
+    -o-transition: all 2s 0s ease;
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}    
+
+.Origin .Transform:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.Origin:hover.Origin .Transform {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/*                         Transform 3D                        */ 
+/*                        Transform 3D Lesson(One)                    */ 
+/* Transform 3D Rotate */
+/* Section (One) */
+.Transform-3D-Rotate {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-3D-Rotate div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: rotate3d(1,1,1,90deg);
+    -webkit-transform: rotate3d(1,1,1,90deg);
+    -moz-transform: rotate3d(1,1,1,90deg);
+    -ms-transform: rotate3d(1,1,1,90deg);
+    -o-transform: rotate3d(1,1,1,90deg);
+}
+
+.Transform-3D-Rotate div:hover {
+    transform: rotate3d(0,0,0,0deg);
+    -webkit-transform: rotate3d(0,0,0,0deg);
+    -moz-transform: rotate3d(0,0,0,0deg);
+    -ms-transform: rotate3d(0,0,0,0deg);
+    -o-transform: rotate3d(0,0,0,0deg);
+}
+
+.Transform-3D-Rotate:hover.Transform-3D-Rotate div {
+    transform: rotate3d(0,0,0,0deg);
+    -webkit-transform: rotate3d(0,0,0,0deg);
+    -moz-transform: rotate3d(0,0,0,0deg);
+    -ms-transform: rotate3d(0,0,0,0deg);
+    -o-transform: rotate3d(0,0,0,0deg);
+}
+
+/* Section (Two) */
+.Transform-3D-Rotate-X {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-3D-Rotate-X div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: rotatex(81deg);
+    -webkit-transform: rotatex(81deg);
+    -moz-transform: rotatex(81deg);
+    -ms-transform: rotatex(81deg);
+    -o-transform: rotatex(81deg);
+}
+
+.Transform-3D-Rotate-X div:hover {
+    transform: rotatex(0deg);
+    -webkit-transform: rotatex(0deg);
+    -moz-transform: rotatex(0deg);
+    -ms-transform: rotatex(0deg);
+    -o-transform: rotatex(0deg);
+}
+
+.Transform-3D-Rotate-X:hover.Transform-2D-Rotate-X div {
+    transform: rotatex(0deg);
+    -webkit-transform: rotatex(0deg);
+    -moz-transform: rotatex(0deg);
+    -ms-transform: rotatex(0deg);
+    -o-transform: rotatex(0deg);
+}
+
+/* Section (Three) */
+.Transform-3D-Rotate-Y {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-3D-Rotate-Y div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: rotatey(81deg);
+    -webkit-transform: rotatey(81deg);
+    -moz-transform: rotatey(81deg);
+    -ms-transform: rotatey(81deg);
+    -o-transform: rotatey(81deg);
+}
+
+.Transform-3D-Rotate-Y div:hover {
+    transform: rotatex(0deg);
+    -webkit-transform: rotatex(0deg);
+    -moz-transform: rotatex(0deg);
+    -ms-transform: rotatex(0deg);
+    -o-transform: rotatex(0deg);
+}
+
+.Transform-3D-Rotate-Y:hover.Transform-3D-Rotate-Y div {
+    transform: rotatex(0deg);
+    -webkit-transform: rotatex(0deg);
+    -moz-transform: rotatex(0deg);
+    -ms-transform: rotatex(0deg);
+    -o-transform: rotatex(0deg);
+}
+
+/* Section (Four) */
+.Transform-3D-Rotate-Advanced {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.Transform-3D-Rotate-Advanced div {
+    background-color: #0000ff57;
+    color: white;
+    width: 280px;
+    height: 280px;
+    margin: 5px auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s 0s ease;
+    -webkit-transition: all 0.8s 0s ease;
+    -moz-transition: all 0.8s 0s ease;
+    -ms-transition: all 0.8s 0s ease;
+    -o-transition: all 0.8s 0s ease;
+    transform-origin:  left top;
+    transform: rotatex(90deg);
+    -webkit-transform: rotatex(90deg);
+    -moz-transform: rotatex(90deg);
+    -ms-transform: rotatex(90deg);
+    -o-transform: rotatex(90deg);
+}
+
+.Transform-3D-Rotate-Advanced:hover.Transform-3D-Rotate-Advanced div {
+    transform: rotatex(0deg);
+    -webkit-transform: rotatex(0deg);
+    -moz-transform: rotatex(0deg);
+    -ms-transform: rotatex(0deg);
+    -o-transform: rotatex(0deg);
+}
+
+/*                        Transform 3D Lesson(Two)                    */ 
+/* Transform 3D Translate3D And Perspective And Perspective Origin */
+/* Section (One) */
+.Transform-3D-Translate3D-And-Perspective-And-Perspective-Origin {
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    perspective: 300px;
+    perspective-origin: right top;
+}
+
+/* .Transform-3D-Translate3D-And-Perspective-And-Perspective-Origin div {
+    background-color: #003cffa8;
+    color: white;
+    width: 290px;
+    height: 283px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s 0s ease;
+    -webkit-transition: all 1s 0s ease;
+    -moz-transition: all 1s 0s ease;
+    -ms-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transform: translate3d(-50%,-50%,0px);
+    -webkit-transform: translate3d(-50%,-50%,0px);
+    -moz-transform: translate3d(-50%,-50%,0px);
+    -ms-transform: translate3d(-50%,-50%,0px);
+    -o-transform: translate3d(-50%,-50%,0px);
+}
+
+.Transform-3D-Translate3D-And-Perspective-And-Perspective-Origin>div:hover {
+    transform: translate3d(-50%,-50%,100px);
+    -webkit-transform: translate3d(-50%,-50%,299px);
+    -moz-transform: translate3d(-50%,-50%,100px);
+    -ms-transform: translate3d(-50%,-50%,100px);
+    -o-transform: translate3d(-50%,-50%,100px);
+} */
+
+.Transform-3D-Translate3D-And-Perspective-And-Perspective-Origin>img {
+    width: 178px;
+    height: 283px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 5s 0s ease;
+    -webkit-transition: all 5s 0s ease;
+    -moz-transition: all 5s 0s ease;
+    -ms-transition: all 5s 0s ease;
+    -o-transition: all 5s 0s ease;
+    transform: translate3d(-50%,-50%,0px);
+    -webkit-transform: translate3d(-50%,-50%,0px);
+    -moz-transform: translate3d(-50%,-50%,0px);
+    -ms-transform: translate3d(-50%,-50%,0px);
+    -o-transform: translate3d(-50%,-50%,0px);
+}
+
+.Transform-3D-Translate3D-And-Perspective-And-Perspective-Origin>img:hover {
+    transform: translate3d(-50%,-50%,299px);
+    -webkit-transform: translate3d(-50%,-50%,299px);
+    -moz-transform: translate3d(-50%,-50%,299px);
+    -ms-transform: translate3d(-50%,-50%,299px);
+    -o-transform: translate3d(-50%,-50%,299px);
+}
+
+/*                        Transform 3D Lesson(Three)                    */ 
+/* Transform 3D BackFace-Visibility(Hidden) And Transform-Style(Preserve-3D) */
+/* Section (One) */
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 200px;
+    margin: 30px auto;
+    perspective: 300px;
+}
+
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container .box {
+    background-color: wheat;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: all 1s 0s ease-in-out;
+    -webkit-transition: all 1s 0s ease-in-out;
+    -moz-transition: all 1s 0s ease-in-out;
+    -ms-transition: all 1s 0s ease-in-out;
+    -o-transition: all 1s 0s ease-in-out;
+    transform-origin: left center;
+}
+
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container .box:hover {
+    transform: translate(100%) rotateY(180deg);
+    -webkit-transform: translate(100%) rotateY(180deg);
+    -moz-transform: translate(100%) rotateY(180deg);
+    -ms-transform: translate(100%) rotateY(180deg);
+    -o-transform: translate(100%) rotateY(180deg);
+}
+
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container .box .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-transform: capitalize;
+}
+
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container .box .front {
+    background-color: red;
+}
+
+.Transform-3D-BackFace-Visibility-Hidden-And-Transform-Style-Preserve-3D .container .box .back {
+    background-color: green;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+/*                         Animation                        */ 
+/*                        Animation Lesson(One)                    */ 
+/* Animation Animation Keyframes Animation Name Animation Duration */
+/* Section (One) */
+.Animation-Keyframes-Animation-Name-Animation-Duration {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration::after {
+    content: "";
+    background-color: black;
+    width: 5px;
+    height: inherit;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration div {
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration div:hover {
+    animation-name: Animation;
+    animation-duration: 2s;
+}
+
+@keyframes Animation {
+    from{
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    }
+    to{
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    }
+}
+
+/* Section (two) */
+.Animation-Keyframes-Animation-Name-Animation-Duration-percentage {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration-percentage::after {
+    content: "";
+    background-color: black;
+    width: 5px;
+    height: inherit;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration-percentage div {
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Animation-Keyframes-Animation-Name-Animation-Duration-percentage div:hover {
+    animation-name: Animation-Two;
+    animation-duration: 2s;
+}
+
+@keyframes Animation-Two {
+    0%{
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    }
+    100%{
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    }
+}
+
+/*                        Animation Lesson(Two)                    */ 
+/* Animation (Iteration Count , Timing-Function) */
+/* Section (One) */
+.Animation-Spinner-Loading div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Three;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Animation-Three {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/*                        Animation Lesson(Three)                    */ 
+/* Animation (Direction (Reverse , Alternate , Alternate-Reverse) , Fill Mode , Play State , Delay */
+/* Section (One) */
+.Animation-Direction-Normal div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Four;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Animation-Four {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Two) */
+.Animation-Direction-Reverse div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Five;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes Animation-Five {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Three) */
+.Animation-Direction-Alternate div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Sex;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes Animation-Sex {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Four) */
+.Animation-Direction-Alternate-Reverse div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Seven;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes Animation-Seven {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Five) */
+.Animation-Delay div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+    animation-name: Animation-Eight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+@keyframes Animation-Eight {
+    to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Sex) */
+.Animation-Fill-Mode-Forwards div {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+    animation-name: Animation-Nine;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Animation-Nine {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+/* Section (Seven) */
+.Animation-Fill-Mode-Both div {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+    animation-name: Animation-Ten;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+@keyframes Animation-Ten {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+/* Section (Eight) */
+.Animation-Play-State-Running div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+
+    animation-name: Animation-Eleven;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+.Animation-Play-State-Running div:hover {
+    animation-play-state: running;
+}
+
+@keyframes Animation-Eleven {
+    to{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+/* Section (Eight) */
+.Animation-Play-State-Paused div {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid aqua;
+    border-left-color: transparent;
+
+
+    animation-name: Animation-Twelve;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+.Animation-Play-State-Paused div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes Animation-Twelve {
+    to{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
